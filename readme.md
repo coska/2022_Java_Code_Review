@@ -7,7 +7,7 @@
 ## Questions to Audiences
 ## Self-Intro
 ## Motivation
-## How `agile` Are you?
+## How `agile` are you?
 ### What do you feel like when you're asked to change the existing codes? Even `frequently`!
 
 ## Features of Functional Programming
