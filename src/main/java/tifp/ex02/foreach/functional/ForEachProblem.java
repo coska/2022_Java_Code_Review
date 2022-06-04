@@ -6,7 +6,6 @@ package tifp.ex02.foreach.functional;
 
 import java.time.LocalDate;
 import java.time.Period;
-import java.util.ArrayList;
 import java.util.List;
 
 public class ForEachProblem {
@@ -19,11 +18,10 @@ public class ForEachProblem {
 		//Q. Iterable.forEach() -> what's the problem of the use here?
 		//what if there's multi-thread issue, what if the input collection is immutable?
 
-		final List<Person> result = new ArrayList<>();
 		people.forEach(
 				person -> person.setAge(getAge(now, person.getBirthDate()))
 		);
-		return result;
+		return people;
 	}
 
 	private int getAge(LocalDate now, LocalDate birthDate) {
